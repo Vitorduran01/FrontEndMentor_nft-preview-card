@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background:hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;      
+}
+
+.conteudo{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;	
+    height: 570px;
+    border-radius: 10px;
+    
+}
+
+.conteudo p{
+    color: white;
+    margin-left: 25px;
+    padding: 6px;
+    margin-top: 5px;
+    font-family: "Outfit", Times, serif;
+    width: 300px;
+    
+}
+.conteudo #especial img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.conteudo h2{
+    color: white;
+    padding: 5px;
+    margin-left: 25px;
+    font-family: "Outfit", Times, serif;
+    
+}
+
+.conteudo .imagem img{
+    width: 350px;
+    padding: 20px;
+    border-radius:40px;    
+   
+}
+
+.conteudo .textos {
+    display: flex;
+    justify-content: space-between;
+    width: 400px; 
+}
+
+.conteudo .textos img{
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.conteudo .textos .texto2{
+    color: hsl(215, 51%, 70%);;
+}
+
+.conteudo .textos #azul {
+    color:hsl(178, 100%, 50%) ;
+}
+
+.conteudo .paragrafo p{
+    color: hsl(215, 51%, 70%);
+}
+
+.conteudo #especial img{
+    vertical-align: middle;
+    border-radius:40px;
+    border-color: white;
+}
+
+.conteudo hr{
+    margin-left: 30px;
+    width: 300px; 
+    margin-top: 10px; 
+}
+
+.conteudo #especial span{
+    color: hsl(178, 100%, 50%);
+}
